@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Tạo bảng, trộn dòng và cột</title>
+</head>
+<body style="font-family: Tahoma; font-size: 12px;">
+
+    <h2 align="center">Chương trình học - ngành lập trình</h2>
+
+    <table border="1" bordercolor="#999999" cellpadding="4" cellspacing="0" align="center" width="600" style="border-collapse: collapse;">
+        <!-- Dòng 1 + 2: Tiêu đề có trộn cột và dòng -->
+        <tr bgcolor="#CC0033" align="center" style="color: #FFFFFF; font-weight: bold;">
+            <td rowspan="2" width="120">Nhóm học phần</td>
+            <td rowspan="2">Môn học</td>
+            <td colspan="2">Số tiết</td>
+        </tr>
+        <tr bgcolor="#CC0033" align="center" style="color: #FFFFFF; font-weight: bold;">
+            <td width="70">Lý thuyết</td>
+            <td width="70">Thực hành</td>
+        </tr>
+
+        <!-- Dòng 3 đến 8: Nhóm I - Tin học văn phòng (rowspan 6 dòng) -->
+        <tr>
+            <td rowspan="6" align="center" valign="middle">
+                <font color="#CC0033"><b>I<br>Tin học văn phòng</b></font>
+            </td>
+            <td>Hệ điều hành Windows</td>
+            <td align="center">3</td>
+            <td align="center">5</td>
+        </tr>
+        <tr>
+            <td>Sử dụng Internet</td>
+            <td align="center">3</td>
+            <td align="center">5</td>
+        </tr>
+        <tr>
+            <td>Soạn thảo văn bản với MS Word</td>
+            <td align="center">24</td>
+            <td align="center">40</td>
+        </tr>
+        <tr>
+            <td>Tạo bài trình diễn với MS PowerPoint</td>
+            <td align="center">9</td>
+            <td align="center">15</td>
+        </tr>
+        <tr>
+            <td>Xử lý số liệu với MS Excel</td>
+            <td align="center">24</td>
+            <td align="center">40</td>
+        </tr>
+        <tr>
+            <td>Tạo trang Web với MS FrontPage</td>
+            <td align="center">9</td>
+            <td align="center">15</td>
+        </tr>
+
+        <!-- Dòng 9 đến 10: Nhóm II - Kỹ thuật lập trình (rowspan 2 dòng) -->
+        <tr>
+            <td rowspan="2" align="center" valign="middle">
+                <font color="#CC0033"><b>II<br>Kỹ thuật lập trình (VB.NET)</b></font>
+            </td>
+            <td>Nhập môn lập trình</td>
+            <td align="center">36</td>
+            <td align="center">60</td>
+        </tr>
+        <tr>
+            <td>Kỹ thuật lập trình</td>
+            <td align="center">36</td>
+            <td align="center">60</td>
+        </tr>
+    </table>
+
+</body>
+</html>
